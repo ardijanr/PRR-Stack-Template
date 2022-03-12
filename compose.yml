@@ -1,0 +1,17 @@
+services:
+  prrn_template:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    # override localhost, so database connects correctly while testing
+    # must be changed when deploying
+    extra_hosts:
+      - "localhost:20.20.20.10"
+
+
+    # volumes:
+      # - dat240_db:/data/backend/Infrastructure/db
+
+# volumes:
+#   dat240_db:
+#     driver: local

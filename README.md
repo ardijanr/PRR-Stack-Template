@@ -1,2 +1,2 @@
-# PRRN-Stack-Template
-Postgres-Rust-React-Node
+# prrn_template
+Fluidi webfaqe
